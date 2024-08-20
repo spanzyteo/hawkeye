@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: linear-gradient(90deg, #ADF2A2, #E6F28D);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
