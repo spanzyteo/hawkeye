@@ -1,4 +1,4 @@
-import vid from '../../public/vid1.mp4'
+import vid from '/vid1.mp4'
 import { RxTriangleDown } from 'react-icons/rx'
 import { LuDot } from 'react-icons/lu'
 import { motion } from 'framer-motion'
@@ -49,7 +49,7 @@ const Body = () => {
               y: ['0%', '-10%', '0%'], // Bounce effect: moving up and down
             }}
             transition={{
-              duration: 0.6, // Duration of one bounce cycle
+              duration: 0.6,
               ease: 'easeInOut', // Smooth easing
               repeat: Infinity, // Infinite loop
               repeatType: 'loop', // Looping the animation

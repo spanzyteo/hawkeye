@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@import '../public/impact.ttf';
+@import "/impact.ttf";
 
 body {
-    background: linear-gradient(90deg, #ADF2A2, #E6F28D);
+  background: linear-gradient(90deg, #adf2a2, #e6f28d);
 }
 
 @font-face {
   font-family: 'impact';
-  src: url('../public/impact.ttf') format('truetype');
+  src: url("/impact.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
