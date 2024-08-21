@@ -1,5 +1,4 @@
 import vid from '../../public/vid1.mp4'
-import vid1 from '../../public/vid.mp4'
 import { RxTriangleDown } from 'react-icons/rx'
 import { LuDot } from 'react-icons/lu'
 import { motion } from 'framer-motion'
@@ -10,11 +9,7 @@ const Body = () => {
     <div className="flex flex-col">
       <div className="bg-black h-[400px] md:w-[700px] w-[300px] mx-auto sm:mt-20 mt-10">
         <video className="w-full h-full object-cover " controls>
-          <source
-            src={vid}
-            type="video/mp4"
-            className="w-full h-full"
-          />
+          <source src={vid} type="video/mp4" className="w-full h-full" />
         </video>
       </div>
       <div className="flex flex-col mx-auto items-center mt-10">
@@ -66,7 +61,7 @@ const Body = () => {
           </motion.div>
         ))}
       </div>
-      <Link className="mx-auto mt-4">
+      <Link to={'https://t.me/join_freecall'} target='_blank' className="mx-auto mt-4">
         <button className="bg-[#365931] w-[200px] mx-auto py-3 uppercase text-white rounded-3xl font-semibold hover:bg-black transition-all duration-500 ease">
           join community
         </button>
